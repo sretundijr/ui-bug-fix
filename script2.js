@@ -72,9 +72,12 @@ const getFile = function (e) {
 
 const handleReturn = function (e, tableDataElement) {
   // grab the index from the id attribute
-  const index = tableDataElement.replace(/^\D+/g, '');
+  const index = tableDataElement.substring(tableDataElement.indexOf("-") + 1);
+
+  // console.log(index);
   // grab the object key portion from the id attr
   const objectKey = tableDataElement.replace(`-${index}`, '');
+  // console.log(objectKey);
 
   e.preventDefault()
   e.stopPropagation()
