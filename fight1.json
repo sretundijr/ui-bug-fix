@@ -1,0 +1,8 @@
+[
+	{"name":"Rasdras Strongrage","current_hp":"1","temp_hp":"1","max_hp":"1","armor_class":"1","initiative":"1","weapon_1":"Mace","weapon_2":"Longbow"},
+	{"name":"Tharul Darkmaul","current_hp":"2","temp_hp":"2","max_hp":"2","armor_class":"2","initiative":"2","weapon_1":"Longsword","weapon_2":"Battle Axe"},
+	{"name":"Craurg Dreamlash","current_hp":"3","temp_hp":"3","max_hp":"3","armor_class":"3","initiative":"3","weapon_1":"Shortbow","weapon_2":"Broadsword"},
+	{"name":"Gaiku Frostwolf","current_hp":"4","temp_hp":"4","max_hp":"4","armor_class":"4","initiative":"4","weapon_1":"Longbow","weapon_2":"Shortsword"},
+	{"name":"Sathos Laughingseeker","current_hp":"5","temp_hp":"5","max_hp":"5","armor_class":"5","initiative":"5","weapon_1":"Quarterstaff","weapon_2":"Dagger"}
+
+]
