@@ -42,7 +42,7 @@ const displayObject = function (items) {
 
 const getFile = function (e) {
     e.preventDefault()
-  fetch(`data/${fileName.value}.json`)
+  fetch(`${fileName.value}.json`)
     .then(data => data.json())
     .then((data) => state.data = data)
     .then(data => displayObject(data))
