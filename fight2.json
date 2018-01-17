@@ -1,0 +1,8 @@
+[
+    {"name":"Tugliko Ironrage","current_hp":"6","temp_hp":"6","max_hp":"6","armor_class":"6","initiative":"6","weapon_1":"Dagger","weapon_2":"Battle Axe"},
+    {"name":"Makgarurl Tuskslayer","current_hp":"7","temp_hp":"7","max_hp":"7","armor_class":"7","initiative":"7","weapon_1":"Light Hammer","weapon_2":"Longbow"},
+    {"name":"Muragarphun Clanhorn","current_hp":"8","temp_hp":"8","max_hp":"8","armor_class":"8","initiative":"8","weapon_1":"Broadsword","weapon_2":"Javelin"},
+    {"name":"Aguguruld Deathhammer","current_hp":"9","temp_hp":"9","max_hp":"9","armor_class":"9","initiative":"9","weapon_1":"Shortsword","weapon_2":"Longbow"},
+    {"name":"Katdis Skulleye","current_hp":"10","temp_hp":"10","max_hp":"10","armor_class":"10","initiative":"10","weapon_1":"Club","weapon_2":"Dagger"}
+
+]

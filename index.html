@@ -18,8 +18,7 @@
       width: 1170px;
       margin-right: auto;
       margin-left: auto;
-      padding-left: 15px;
-      padding-right: 15px;
+      padding: 0 15px;
     }
 
     #floating-input {
@@ -28,7 +27,6 @@
       top: 0;
       left: 0;
       height: 29px;
-      width: 100px;
     }
 
     table {
@@ -54,7 +52,6 @@
     tr,
     td {
       padding: 8px;
-      line-height: 1.42857143;
       vertical-align: top;
       border-top: 1px solid #ddd;
       line-height: 1.42857143;
@@ -83,23 +80,12 @@
       </thead>
       <tbody id="tbody1"></tbody>
     </table>
-    <!-- no need to wrap in form -->
-    <!-- <form> -->
-    <button id="load-btn" type="submit" class="load-data">Load Data</button>
-    <input id="file-name" type="text" value="fight1" name="file-name" placeholder="File name goes here...">
-    <!-- </form> -->
-    <!-- <form> -->
+    <button id="load-btn" type="submit" class="load-data">Load File</button>
+    <input id="file-name" type="text" value="" name="file-name" placeholder="File name goes here...">
     <button id="clear-btn" class="clear-data">Clear Data</button>
-    <!-- </form> -->
   </div>
-  <!-- floating input -->
   <input id="floating-input">
-  <!-- <button id="submit-input">submit</button> -->
-
-  <!-- moved script to within body -->
-  <!-- <script src="script.js"></script> -->
-  <script src="script2.js"></script>
-
+ 
+  <script src="script.js"></script>
 </body>
-
 </html>
