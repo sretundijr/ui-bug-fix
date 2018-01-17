@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Battle Log</title>
+  <style>
+    body {
+      box-sizing: border-box;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #333;
+      line-height: 1.42857143;
+      margin: 0;
+    }
+
+    .container {
+      width: 1170px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0 15px;
+    }
+
+    #floating-input {
+      position: absolute;
+      display: none;
+      top: 0;
+      left: 0;
+      height: 29px;
+    }
+
+    table {
+      width: 100%;
+      background-color: transparent;
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    thead {
+      background-color: #d3f3cd;
+    }
+
+    th {
+      padding: 8px;
+      text-align: left;
+      vertical-align: bottom;
+      border-bottom: 2px solid #ddd;
+      line-height: 1.42857143;
+    }
+
+    tbody,
+    tr,
+    td {
+      padding: 8px;
+      vertical-align: top;
+      border-top: 1px solid #ddd;
+      line-height: 1.42857143;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <table id="table-1">
+      <thead id="thead-1">
+        <tr>
+          <th>Name</th>
+          <th>Current HP</th>
+          <th>Temp HP</th>
+          <th>Max HP</th>
+          <th>Armor Class</th>
+          <th>Initiative</th>
+          <th>Weapon 1</th>
+          <th>Weapon 2</th>
+        </tr>
+      </thead>
+      <tbody id="tbody1"></tbody>
+    </table>
+    <button id="load-btn" type="submit" class="load-data">Load File</button>
+    <input id="file-name" type="text" value="fight1" name="file-name" placeholder="File name goes here...">
+    <button id="clear-btn" class="clear-data">Clear Data</button>
+  </div>
+  <input id="floating-input">
+ 
+  <script src="script3.js"></script>
+</body>
+</html>
